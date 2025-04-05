@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'Lato';
+}
+
+section {
+    height: 100vh;
+}
+
+
+/* NavBar */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+    background: #0c0c0c;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.header .logo {
+    margin-right: auto;
+}
+
+.logo {
+    width: 45px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex: 1;
+}
+
+.navbar a {
+    font-size: 18px;
+    font-weight: 400;
+    transition: .3s;
+    color: rgb(255, 255, 255);
+}
+
+
+#menu-icon {
+    font-size: 4rem;
+    display: none;
+    cursor: pointer;
+}
+
+.onda {
+    max-width: 100%;
+    margin-bottom: -20px;
+}
+
+.onda-botton {
+    max-width: 100%;
+    margin-top: -100px;
+}
+
+.carrinho-btn {
+    background-color: #ff8900;
+    color: white;
+    font-size: 18px;
+    padding: 15px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.icon-carrinho i {
+    font-size: 20px;
+}
+.icon-carrinho {
+    padding: 10px;
+}
