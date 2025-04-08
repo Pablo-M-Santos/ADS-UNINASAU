@@ -47,7 +47,7 @@ section {
 }
 
 .navbar a {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
     transition: .3s;
     color: rgb(255, 255, 255);
@@ -73,15 +73,156 @@ section {
 .carrinho-btn {
     background-color: #ff8900;
     color: white;
-    font-size: 18px;
+    font-size: 16px;
     padding: 15px 20px;
     border-radius: 10px;
     cursor: pointer;
 }
 
 .icon-carrinho i {
-    font-size: 20px;
+    font-size: 18px;
 }
+
 .icon-carrinho {
     padding: 10px;
+}
+
+
+.mobile-menu {
+    display: none;
+}
+
+.tela-inicial {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url(https://site.labrasaburger.com.br/wp-content/uploads/2021/09/DSC00367DFD.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container-home {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.container-home h1 {
+    font-size: 70px;
+    font-family: 'Bebas Neue';
+    font-weight: 400;
+    color: #ffffff;
+    text-transform: none;
+}
+
+.container-home h2 {
+    font-weight: 400;
+    font-size: 22px;
+    font-family: 'Bebas Neue';
+    color: #ff8900;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.sobre {
+    background-color: #ff8900;
+}
+
+.oxy_shape_divider {
+    color: white;
+    bottom: 0px;
+}
+
+.oxy_shape_divider svg {
+    height: 250px;
+}
+
+.oxy_shape_divider svg {
+    width: 100%;
+}
+
+.ingredientes {
+    position: relative;
+}
+
+.picles-cebola {
+    height: 180px;
+    position: absolute;
+    top: -250px;
+    left: 40px;
+}
+
+.folhas {
+    height: 180px;
+    position: absolute;
+    top: -250px;
+    right: 40px;
+}
+
+
+/* Responsividade */
+
+#menu-icon {
+    display: none;
+    color: white;
+}
+
+@media (max-width: 900px) {
+    .header {
+        padding: 10px 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        display: none;
+    }
+
+    #menu-icon {
+        display: block;
+        font-size: 28px;
+    }
+
+    .carrinho-btn {
+        display: none;
+    }
+
+    .mobile-menu {
+        display: none;
+        position: absolute;
+        top: 100px;
+        left: 50%;
+        transform: translateX(-50%);
+        background: #1a1a1a;
+        border-radius: 10px;
+        flex-direction: column;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+        width: 100%;
+        max-width: 250px;
+        padding: 20px;
+        margin: 0 auto;
+        z-index: 100;
+        align-items: center;
+        text-align: center;
+    }
+
+    .mobile-menu a {
+        color: white;
+        margin: 10px 0;
+        text-decoration: none;
+        font-size: 16px;
+        transition: 0.3s;
+    }
+
+    .mobile-menu a:hover {
+        color: #ff8900;
+    }
+
+    .mobile-menu.active {
+        display: flex;
+    }
 }

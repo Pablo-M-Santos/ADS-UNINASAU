@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html>
-<meta charset="UTF-8" />
-<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-<link rel="stylesheet" href="./css/style.css">
-<title>Buriger Haven</title>
 
 <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" media="all" onload="this.onload=null;this.media='all';" id="ao_optimized_gfonts"
+        href="https://fonts.googleapis.com/css?family=Raleway:300,700,900,regular,%7CCalistoga:300,700,800,900,regular,%7CCalistoga:100,200,300,400,500,600,700,800,900%7CBebas+Neue:100,200,300,400,500,600,700,800,900%7CArray:100,200,300,400,500,600,700,800,900%7CRaleway:100,200,300,400,500,600,700,800,900%7CRubik:100,200,300,400,500,600,700,800,900&amp;display=swap">
+    <title>Buriger Haven</title>
+
+
     <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
-    <link rel="stylesheet" href="./css/bootstrap.min.css" />
-    <link rel="stylesheet" href="./css/fontawesome.css" />
-    <link rel="stylesheet" href="./css/animate.css" />
-    <link rel="stylesheet" href="./css/main.css" />
-    <link rel="stylesheet" href="./css/responsivo.css" />
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 
 <body>
@@ -21,24 +21,43 @@
         <a href="#" class="logo">
             <img src="./img/la-brasa-logo.png" class="logo" alt="Logo da Buriger Haven">
         </a>
-        <i class='bx bx-menu' id="menu-icon"></i>
+        <i class="fas fa-bars" id="menu-icon"></i>
         <nav class="navbar">
             <a href="#home" class="active">Home</a>
             <a href="#seervicos">Serviços</a>
             <a href="#cardapio">Cardápio</a>
             <a href="#depoimentos">Depoimentos</a>
         </nav>
+        <div class="mobile-menu" id="mobile-menu">
+            <a href="#home">Home</a>
+            <a href="#seervicos">Serviços</a>
+            <a href="#cardapio">Cardápio</a>
+            <a href="#depoimentos">Depoimentos</a>
+        </div>
+
         <button class="carrinho-btn">
             Meu Carrinho
             <span class="icon-carrinho"><i class="fas fa-shopping-cart"></i></span>
         </button>
     </header>
-    <section>
-        1
+    <section class="tela-inicial">
+        <div class="container-home">
+            <h1>LA BRASA BURGER</h1>
+            <h2>Hambúrgueres e Combos Artesanais Monstruosos</h2>
+        </div>
     </section>
-    <section>
-        2
-    </section>
+    <div class="sobre">
+        <div class="oxy_shape_divider"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"
+                preserveAspectRatio="none">
+                <path fill="currentColor" fill-opacity="1"
+                    d="M0,96L30,106.7C60,117,120,139,180,133.3C240,128,300,96,360,80C420,64,480,64,540,101.3C600,139,660,213,720,240C780,267,840,245,900,245.3C960,245,1020,267,1080,250.7C1140,235,1200,181,1260,176C1320,171,1380,213,1410,234.7L1440,256L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z">
+                </path>
+            </svg></div>
+        <div class="ingredientes">
+            <img class="picles-cebola" src="./img/picles-cebola.png" alt="Picles e Cebola">
+            <img class="folhas" src="./img/folhas.png" alt="Picles e Cebola">
+        </div>
+    </div>
     <section>
         3
     </section>
@@ -46,6 +65,7 @@
         4
     </section>
 
+    <script src="./script.js"></script>
 </body>
 
 </html>
