@@ -167,6 +167,132 @@ section {
     right: 40px;
 }
 
+.unidades {
+    padding-inline: 100px;
+    padding-top: 200px;
+}
+
+.container-unidades {
+    width: 100%;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+}
+
+.titulo-unidades {
+    width: 50%;
+}
+
+.unidades-brasil {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.unidades-brasil img {
+    width: 100%;
+    display: block;
+}
+
+.container-unidades h2 {
+    font-weight: 900;
+    font-family: 'Bebas Neue';
+    line-height: 1;
+    color: #ff8900;
+    font-size: 55px;
+    margin-bottom: 20px;
+}
+
+.container-unidades h3 {
+    font-family: 'Bebas Neue';
+    font-size: 20px;
+    line-height: 1.3;
+    margin-bottom: 0px;
+    color: #3e3e4b;
+    font-weight: 600;
+}
+
+/* Estilo dos botões */
+.estado-button {
+    position: absolute;
+    background-color: #ff8900;
+    width: 40px;
+    height: 40px;
+    border-radius: inherit;
+    transition: all 300ms ease;
+    border-radius: 50%;
+}
+
+
+.estado-button:hover {
+    transform: scale(1.2);
+}
+
+.estado-button.rs {
+    top: 88%;
+    left: 53%;
+}
+
+.estado-button.sc {
+    top: 81%;
+    left: 60%;
+}
+
+.estado-button.pr {
+    top: 64%;
+    left: 47%;
+}
+
+.estado-button.ms {
+    top: 74%;
+    left: 55%;
+}
+
+.estado-button.sp {
+    top: 68%;
+    left: 62%;
+}
+
+.estado-button.rj {
+    top: 69%;
+    left: 78%;
+}
+
+.estado-button.ro {
+    top: 39%;
+    left: 26%;
+}
+
+.estado-button.mt {
+    top: 45%;
+    left: 45%;
+}
+
+.estado-button.go {
+    top: 54%;
+    left: 58%;
+}
+
+.estado-button.mg {
+    top: 58%;
+    left: 74%;
+}
+
+.estado-button.pa {
+    top: 24%;
+    left: 54%;
+}
+
+.estado-button.am {
+    top: 24%;
+    left: 34%;
+}
+
+.estado-button.ba {
+    top: 42%;
+    left: 81%;
+}
 
 /* Responsividade */
 
