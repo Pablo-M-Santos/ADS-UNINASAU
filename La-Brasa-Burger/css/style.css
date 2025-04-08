@@ -130,19 +130,23 @@ section {
 
 .sobre {
     background-color: #ff8900;
+    position: relative;
+    min-height: 300px;/
 }
 
 .oxy_shape_divider {
-    color: white;
-    bottom: 0px;
-}
-
-.oxy_shape_divider svg {
-    height: 250px;
-}
-
-.oxy_shape_divider svg {
+    position: absolute;
+    bottom: 0;
     width: 100%;
+    color: white;
+    line-height: 0;
+}
+
+.oxy_shape_divider svg {
+    display: block;
+    width: 100%;
+    height: 100px;
+
 }
 
 .ingredientes {
@@ -150,16 +154,16 @@ section {
 }
 
 .picles-cebola {
-    height: 180px;
+    height: 300px;
     position: absolute;
-    top: -250px;
-    left: 40px;
+    top: 70px;
+    left: 20px;
 }
 
 .folhas {
-    height: 180px;
+    height: 200px;
     position: absolute;
-    top: -250px;
+    top: 210px;
     right: 40px;
 }
 
