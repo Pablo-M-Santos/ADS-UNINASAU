@@ -488,7 +488,6 @@ section {
 
 .img-container img {
     width: 100%;
-
     object-fit: cover;
 }
 
@@ -565,6 +564,44 @@ section {
 #menu-icon {
     display: none;
     color: white;
+}
+
+@media (max-width: 1500px) {
+    .picles-cebola {
+        height: 200px;
+    }
+
+    .folhas {
+        height: 150px;
+    }
+
+    .unidades {
+        height: auto;
+    }
+
+    .burguer-bacon {
+        height: 500px;
+    }
+
+    .tomate {
+        height: 200px;
+    }
+
+    .card-burguer {
+        width: 180px;
+        min-height: 100%;
+        min-width: 280px;
+    }
+
+    .container-cardapio {
+        max-width: 1400px;
+    }
+
+    .titulo-cardapio {
+        max-width: 1400px;
+    }
+
+
 }
 
 @media (max-width: 900px) {
