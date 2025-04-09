@@ -222,6 +222,31 @@ section {
     border-radius: inherit;
     transition: all 300ms ease;
     border-radius: 50%;
+    z-index: 10;
+}
+
+.estado-button:hover::after {
+    content: attr(title);
+    position: absolute;
+    top: 50%;
+    right: 110%;
+    transform: translateY(-50%);    
+    background-color: #ff8900;
+    color: #fff;
+    padding: 6px 10px;
+    border-radius: 6px;
+    white-space: nowrap;
+    font-size: 14px;
+    font-family: 'Lato';
+    z-index: 100;
+    opacity: 0;
+    transition: opacity 0.3s;
+    pointer-events: none;
+}
+
+.estado-button:hover::after {
+    opacity: 1;
+    z-index: 9999;
 }
 
 
@@ -232,6 +257,7 @@ section {
 .estado-button.rs {
     top: 88%;
     left: 53%;
+    z-index: 10;
 }
 
 .estado-button.sc {
@@ -255,8 +281,8 @@ section {
 }
 
 .estado-button.rj {
-    top: 69%;
-    left: 78%;
+    top: 67%;
+    left: 77%;
 }
 
 .estado-button.ro {
