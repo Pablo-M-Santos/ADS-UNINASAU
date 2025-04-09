@@ -24,9 +24,9 @@
         <i class="fas fa-bars" id="menu-icon"></i>
         <nav class="navbar">
             <a href="#home" class="active">Home</a>
-            <a href="#seervicos">Serviços</a>
+            <a href="#unidades">Unidades</a>
             <a href="#cardapio">Cardápio</a>
-            <a href="#depoimentos">Depoimentos</a>
+
         </nav>
         <div class="mobile-menu" id="mobile-menu">
             <a href="#home">Home</a>
@@ -40,7 +40,7 @@
             <span class="icon-carrinho"><i class="fas fa-shopping-cart"></i></span>
         </button>
     </header>
-    <section class="tela-inicial">
+    <section class="tela-inicial" id="home">
         <div class="container-home">
             <h1>LA BRASA BURGER</h1>
             <h2>Hambúrgueres e Combos Artesanais Monstruosos</h2>
@@ -58,7 +58,7 @@
             <img class="folhas" src="./img/folhas.png" alt="Picles e Cebola">
         </div>
     </div>
-    <section class="unidades">
+    <section class="unidades" id="unidades">
         <div class="container-unidades">
             <div class="titulo-unidades">
                 <h2>Saiba onde <br> nos encontrar</h2>
@@ -67,16 +67,22 @@
             <div class="mapa-unidades">
                 <div class="unidades-brasil">
                     <img src="./img/brasil.png" alt="">
-                    <button class="estado-button rs " title="Rio Grande do Sul"><i class="fa-solid fa-location-dot "></i></button>
-                    <button class="estado-button sc" title="Santa Catarina"><i class="fa-solid fa-location-dot"></i></button>
+                    <button class="estado-button rs " title="Rio Grande do Sul"><i
+                            class="fa-solid fa-location-dot "></i></button>
+                    <button class="estado-button sc" title="Santa Catarina"><i
+                            class="fa-solid fa-location-dot"></i></button>
                     <button class="estado-button pr" title="Paraná"><i class="fa-solid fa-location-dot"></i></button>
-                    <button class="estado-button ms" title="Mato Grosso do Sul"><i class="fa-solid fa-location-dot"></i></button>
+                    <button class="estado-button ms" title="Mato Grosso do Sul"><i
+                            class="fa-solid fa-location-dot"></i></button>
                     <button class="estado-button sp" title="São Paulo"><i class="fa-solid fa-location-dot"></i></button>
-                    <button class="estado-button rj" title="Rio de Janeiro"><i class="fa-solid fa-location-dot"></i></button>
+                    <button class="estado-button rj" title="Rio de Janeiro"><i
+                            class="fa-solid fa-location-dot"></i></button>
                     <button class="estado-button ro" title="Rondônia"><i class="fa-solid fa-location-dot"></i></button>
-                    <button class="estado-button mt" title="Mato Grosso"><i class="fa-solid fa-location-dot"></i></button>
+                    <button class="estado-button mt" title="Mato Grosso"><i
+                            class="fa-solid fa-location-dot"></i></button>
                     <button class="estado-button go" title="Goiás"><i class="fa-solid fa-location-dot"></i></button>
-                    <button class="estado-button mg" title="Minas Gerais"><i class="fa-solid fa-location-dot"></i></button>
+                    <button class="estado-button mg" title="Minas Gerais"><i
+                            class="fa-solid fa-location-dot"></i></button>
                     <button class="estado-button pa" title="Pará"><i class="fa-solid fa-location-dot"></i></button>
                     <button class="estado-button am" title="Amazonas"><i class="fa-solid fa-location-dot"></i></button>
                     <button class="estado-button ba" title="Bahia"><i class="fa-solid fa-location-dot"></i></button>
@@ -85,10 +91,89 @@
         </div>
 
     </section>
-    <section>
-        4
+    <section class="imagem-cardapio">
+        <div class="oxy_shape_divider2"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"
+                preserveAspectRatio="none">
+                <path fill="currentColor" fill-opacity="1"
+                    d="M0,96L30,106.7C60,117,120,139,180,133.3C240,128,300,96,360,80C420,64,480,64,540,101.3C600,139,660,213,720,240C780,267,840,245,900,245.3C960,245,1020,267,1080,250.7C1140,235,1200,181,1260,176C1320,171,1380,213,1410,234.7L1440,256L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z">
+                </path>
+            </svg></div>
+        <div class="ingredientes">
+            <img class="burguer-bacon" src="./img/burguer-bacon.png" alt="Picles e Cebola">
+            <img class="tomate" src="./img/tomate.png" alt="Picles e Cebola">
+        </div>
+        <div class="oxy_shape_divider3"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"
+                preserveAspectRatio="none">
+                <path fill="currentColor" fill-opacity="1"
+                    d="M0,96L30,106.7C60,117,120,139,180,133.3C240,128,300,96,360,80C420,64,480,64,540,101.3C600,139,660,213,720,240C780,267,840,245,900,245.3C960,245,1020,267,1080,250.7C1140,235,1200,181,1260,176C1320,171,1380,213,1410,234.7L1440,256L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z">
+                </path>
+            </svg></div>
     </section>
 
+    <section class="cardapio" id="cardapio">
+        <div class="container-cardapio">
+            <div class="card-burguer">
+                <div class="img-container">
+                    <img src="./img/cardapio/hamburguer/Australiano.png" alt="Burguer Bacon">
+                    <div class="preco">R$ 29,90</div>
+                </div>
+                <div class="info">
+                    <h3 class="nome">Burguer Bacon</h3>
+                    <div class="acoes">
+                        <button class="menos">-</button>
+                        <span class="quantidade">1</span>
+                        <button class="mais">+</button>
+                        <button class="carrinho"><i class="fas fa-shopping-cart"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="card-burguer">
+                <div class="img-container">
+                    <img src="./img/cardapio/hamburguer/Australiano.png" alt="Burguer Bacon">
+                    <div class="preco">R$ 29,90</div>
+                </div>
+                <div class="info">
+                    <h3 class="nome">Burguer Bacon</h3>
+                    <div class="acoes">
+                        <button class="menos">-</button>
+                        <span class="quantidade">1</span>
+                        <button class="mais">+</button>
+                        <button class="carrinho"><i class="fas fa-shopping-cart"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="card-burguer">
+                <div class="img-container">
+                    <img src="./img/cardapio/hamburguer/Australiano.png" alt="Burguer Bacon">
+                    <div class="preco">R$ 29,90</div>
+                </div>
+                <div class="info">
+                    <h3 class="nome">Burguer Bacon</h3>
+                    <div class="acoes">
+                        <button class="menos">-</button>
+                        <span class="quantidade">1</span>
+                        <button class="mais">+</button>
+                        <button class="carrinho"><i class="fas fa-shopping-cart"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="card-burguer">
+                <div class="img-container">
+                    <img src="./img/cardapio/hamburguer/Australiano.png" alt="Burguer Bacon">
+                    <div class="preco">R$ 29,90</div>
+                </div>
+                <div class="info">
+                    <h3 class="nome">Burguer Bacon</h3>
+                    <div class="acoes">
+                        <button class="menos">-</button>
+                        <span class="quantidade">1</span>
+                        <button class="mais">+</button>
+                        <button class="carrinho"><i class="fas fa-shopping-cart"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <script src="./script.js"></script>
 </body>
 
