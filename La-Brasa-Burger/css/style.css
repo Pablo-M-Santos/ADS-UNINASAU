@@ -395,6 +395,7 @@ section {
     background-position: -10px 0%;
     width: 100%;
     height: 600px;
+    background-position: center;
     background-size: cover;
     background-repeat: repeat;
 }
@@ -590,23 +591,194 @@ section {
     .card-burguer {
         width: 180px;
         min-height: 100%;
-        min-width: 280px;
+        min-width: 250px;
     }
 
     .container-cardapio {
-        max-width: 1400px;
+        max-width: 1300px;
     }
 
     .titulo-cardapio {
-        max-width: 1400px;
+        max-width: 1300px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .card-burguer {
+        width: 180px;
+        min-height: 100%;
+        min-width: 200px;
     }
 
+    .container-cardapio {
+        max-width: 1100px;
+    }
 
+    .titulo-cardapio {
+        max-width: 1100px;
+    }
+
+    .img-container {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .card-burguer {
+        width: 180px;
+        min-height: 100%;
+        min-width: 200px;
+    }
+
+    .container-cardapio {
+        max-width: 700px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .titulo-cardapio {
+        max-width: 700px;
+    }
+
+    .img-container {
+        padding: 20px;
+    }
 }
 
 @media (max-width: 900px) {
     .header {
         padding: 10px 40px;
+    }
+
+    .unidades {
+        padding-inline: 40px;
+
+    }
+}
+
+@media (max-width: 800px) {
+    .unidades {
+        padding-inline: 80px;
+    }
+
+    .container-unidades h2 {
+        text-align: center;
+    }
+
+    .container-unidades {
+        width: 100%;
+        flex-direction: column-reverse;
+    }
+
+    .titulo-unidades {
+        margin-top: 100px;
+    }
+}
+
+@media (max-width: 600px) {
+    .estado-button {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media (max-width: 500px) {
+    .picles-cebola {
+        height: 100px;
+        top: 170px;
+    }
+
+    .folhas {
+        height: 100px;
+    }
+
+    .unidades {
+        padding-inline: 40px;
+    }
+
+    .burguer-bacon {
+        height: 300px;
+    }
+
+    .tomate {
+        height: 150px;
+        right: 10px;
+    }
+
+    .container-cardapio {
+        max-width: 300px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .card-burguer {
+        width: 200px;
+        min-height: 100%;
+        min-width: 250px;
+    }
+
+    .container-home h1 {
+        font-size: 5dvb;
+
+    }
+
+    .container-home h2 {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 400px) {
+    .picles-cebola {
+        height: 100px;
+        top: 170px;
+    }
+
+    .folhas {
+        height: 100px;
+    }
+
+    .unidades {
+        padding-inline: 20px;
+    }
+
+    .titulo-unidades {
+        width: 100%;
+    }
+
+    .container-unidades h2 {
+        font-size: 40px;
+    }
+
+    .container-unidades h3 {
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .burguer-bacon {
+        height: 300px;
+    }
+
+    .tomate {
+        height: 150px;
+        right: 10px;
+    }
+
+    .container-cardapio {
+        max-width: 300px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .card-burguer {
+        width: 200px;
+        min-height: 100%;
+        min-width: 250px;
+    }
+
+    .container-home h1 {
+        font-size: 5dvb;
+
+    }
+
+    .container-home h2 {
+        font-size: 20px;
     }
 }
 
